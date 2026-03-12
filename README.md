@@ -1,18 +1,36 @@
 # Safety Data Analyzer
 
-A Python project that analyzes industrial safety incident data.
+A Python project that analyzes industrial safety incident data using Pandas and Matplotlib.
 
 ## Features
-- Load and inspect incident datasets using pandas
-- Analyze incident distributions by plant, severity, and type
+
+- Load and inspect safety incident datasets
+- Analyze incidents by plant location
+- Analyze incident types and severity distribution
 - Group incidents by plant and severity
-- Visualize incident counts using matplotlib
+- Visualize incident counts using bar charts
 
 ## Technologies
+
 - Python
 - Pandas
 - Matplotlib
 
-## Run the project
+## Project Structure
 
+safety-data-analyzer
+│
+├── data
+│   └── safety_incidents.csv
+│
+├── src
+│   └── analyzer.py
+│
+├── output
+│
+└── README.md
+
+## Run the Project
+
+```bash
 python src/analyzer.py
