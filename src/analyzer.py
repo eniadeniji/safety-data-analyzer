@@ -2,17 +2,15 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import sys
 from generate_data import generate_dataset
+from analysis_engine import *
 
 def run_analysis():
     # Load dataset
-    data = pd.read_csv("data/safety_incidents.csv")
+    data = load_data("data/safety_incidents.csv")
 
     # Basic overview
     print("\n=== DATASET OVERVIEW ===")
     print(data.head(10))
-
-    # Date
-    data["date"] = pd.to_datetime(data["date"])
 
     # Total incidents
     total_incidents = len(data)
@@ -36,13 +34,13 @@ def run_analysis():
     print(high["location"].value_counts())
 
     # Calculate percentage of high severity incidents
-    high_percentage = (len(high) / total_incidents) * 100
+    high_percentage = get_high_severity_rate(data)
     print("\n=== HIGH SEVERITY INCIDENT RATE ===")
     print(f"{high_percentage:.2f}% of incidents are high severity")
 
     # Identify the most dangerous plant
     print("\n=== MOST DANGEROUS PLANT ===")
-    most_dangerous_plant = high["location"].value_counts().idxmax()
+    most_dangerous_plant = get_most_dangerous_plant(data)
     print(most_dangerous_plant)
 
     # Incidents by plant and severity
@@ -64,7 +62,7 @@ def run_analysis():
 
     # Identify the top 5 most dangerous days
     # Sort incident counts in descending order
-    top_dangerous_days = incidents_per_day.sort_values(ascending=False).head(5)
+    top_dangerous_days = get_top_dangerous_days(data)
 
     print("\n=== TOP 5 MOST DANGEROUS DAYS ===")
     print(top_dangerous_days)
@@ -169,7 +167,7 @@ if __name__ == "__main__":
 
     elif command == "generate":
         generate_dataset()
-        
+
     else:
         print("Unknown command")
         
