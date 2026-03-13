@@ -1,0 +1,40 @@
+SAFETY INCIDENT ANALYSIS REPORT
+
+Total incidents: 375
+
+
+Incidents by location:
+
+location
+Plant A    100
+Plant C     96
+Plant B     94
+Plant D     85
+Name: count, dtype: int64
+
+
+
+Severity distribution:
+
+severity
+Low       201
+Medium    118
+High       56
+Name: count, dtype: int64
+
+
+
+Top 5 most dangerous days:
+
+date
+2025-01-12    10
+2025-01-17    10
+2025-02-09    10
+2025-02-10    10
+2025-02-27    10
+dtype: int64
+
+
+
+Most dangerous plant: Plant C
+
