@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import sys
+import json
 from generate_data import generate_dataset
 from analysis_engine import *
 
@@ -145,6 +146,23 @@ def run_analysis():
     report.append(f"Most dangerous plant: {most_dangerous_plant}\n\n")
 
     report.append(f"High severity incident rate: {high_percentage:.2f}%\n\n")
+
+    # Create structured results for machine-readable output
+    results = {
+        "total_incidents": total_incidents,
+        "most_dangerous_plant":
+    most_dangerous_plant,
+        "high_severity_rate":
+    round(high_percentage, 2),
+        "top_dangerous_days" : {str(k): int(v) for k, v in top_dangerous_days.items()}
+    
+    }
+
+    # Export structured JSON results
+    with open("output/analysis_results.json", "w") as f:
+        json.dump(results,f, indent=4)
+    print("JSON results exported to output/analysis_results.json")
+
 
     with open("output/report.txt", "w") as f:
         f.write("\n".join(report))
