@@ -12,3 +12,16 @@ Thumbs.db
 
 # Ignore generated outputs
 output/
+data/incidents.db
+
+# VSCode settings
+.vscode/
+
+# Databases
+*.db
+
+# Logs
+*.log
+
+# jupyter
+.ipynb_checkpoints/

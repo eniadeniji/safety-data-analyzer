@@ -7,7 +7,7 @@ from analysis_engine import *
 
 def run_analysis():
     # Load dataset
-    data = load_data("data/safety_incidents.csv")
+    data = load_data()
 
     # Basic overview
     print("\n=== DATASET OVERVIEW ===")
@@ -41,8 +41,15 @@ def run_analysis():
 
     # Identify the most dangerous plant
     print("\n=== MOST DANGEROUS PLANT ===")
-    most_dangerous_plant = get_most_dangerous_plant(data)
-    print(most_dangerous_plant)
+    plant, count = get_most_dangerous_plant()
+    print(f"{plant} ({count} high severity incidents)")
+
+    # Risk score
+    print("\n=== PLANT RISK SCORES ===")
+    risk_scores = get_plant_risk_scores()
+
+    for location, score in risk_scores:
+        print(f"{location} : {score}")
 
     # Incidents by plant and severity
     print("\n=== INCIDENTS BY PLANT AND SEVERITY ===")
@@ -143,15 +150,14 @@ def run_analysis():
     report.append("\n\n")
 
     # Add most dangerous plant to the report
-    report.append(f"Most dangerous plant: {most_dangerous_plant}\n\n")
+    report.append(f"Most dangerous plant: {plant} ({count} high severity incidents)\n\n")
 
     report.append(f"High severity incident rate: {high_percentage:.2f}%\n\n")
 
     # Create structured results for machine-readable output
     results = {
         "total_incidents": total_incidents,
-        "most_dangerous_plant":
-    most_dangerous_plant,
+        "most_dangerous_plant": plant,
         "high_severity_rate":
     round(high_percentage, 2),
         "top_dangerous_days" : {str(k): int(v) for k, v in top_dangerous_days.items()}

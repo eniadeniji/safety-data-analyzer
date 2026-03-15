@@ -1,15 +1,34 @@
 import pandas as pd
+import sqlite3
+
+DB_PATH = "data/incidents.db"
+
+def get_most_dangerous_plant():
+    conn = sqlite3.connect(DB_PATH)
+
+    query = """ 
+    SELECT location, COUNT(*) as high_incidents
+    FROM incidents
+    WHERE severity = 'High'
+    GROUP BY location
+    ORDER BY high_incidents DESC
+    LIMIT 1
+    """
+
+    cursor = conn.cursor()
+    cursor.execute(query)
+    result = cursor.fetchone()
+    conn.close()
+    return result
 
 # Load dataset
-def load_data(filepath):
-    data = pd.read_csv(filepath)
+def load_data():
+    conn = sqlite3. connect(DB_PATH)
+    query = "SELECT * FROM incidents"
+    data = pd.read_sql_query(query, conn)
+    conn.close()
     data["date"] = pd.to_datetime(data["date"])
     return data
-
-# Calculate most dangerous plant
-def get_most_dangerous_plant(data):
-    high = data[data["severity"] == "High"]
-    return high["location"].value_counts().idxmax()
 
 # Get top dangerous days
 def get_top_dangerous_days(data):
@@ -30,3 +49,28 @@ def get_summary(data):
         "incidents_types": data["incident_type"].value_counts(),
         "severity_distribution": data["severity"]. value_counts(),
     }
+
+# Get severity scores
+def get_plant_risk_scores():
+    conn = sqlite3.connect(DB_PATH)
+    query = """
+    SELECT location,
+    sum(
+        CASE
+            WHEN severity = 'High' THEN 5
+            WHEN severity = 'Medium' THEN 3
+
+            ELSE 1
+    
+        END
+    ) AS risk_score
+    FROM incidents
+    GROUP BY location
+    ORDER BY risk_score DESC
+    """
+
+    cursor = conn.cursor()
+    cursor.execute(query)
+    results = cursor.fetchall()
+    conn.close()
+    return results
