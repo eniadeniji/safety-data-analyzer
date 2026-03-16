@@ -1,324 +1,344 @@
 date,location,incident_type,severity,description
-2025-01-01,Plant A,Slip,Medium,Control panel wiring malfunction
-2025-01-02,Plant A,Electrical Issue,Medium,Conveyor motor overheated during startup
-2025-01-02,Plant B,Electrical Issue,Low,Control panel wiring malfunction
-2025-01-02,Plant A,Equipment Failure,Medium,Minor solvent leak detected
-2025-01-02,Plant A,Slip,Medium,Operator slipped near wash station
-2025-01-02,Plant D,Equipment Failure,Low,Control panel wiring malfunction
-2025-01-02,Plant C,Slip,Low,Conveyor motor overheated during startup
-2025-01-02,Plant D,Slip,Low,Conveyor motor overheated during startup
-2025-01-02,Plant C,Fire Hazard,Low,Minor solvent leak detected
-2025-01-02,Plant D,Chemical Spill,Medium,Forklift brake response delay
-2025-01-02,Plant A,Equipment Failure,Low,Forklift brake response delay
-2025-01-03,Plant A,Electrical Issue,High,Minor solvent leak detected
-2025-01-03,Plant D,Chemical Spill,Medium,Smoke detected near curing oven
-2025-01-03,Plant B,Slip,Low,Cooling pump pressure fluctuation
-2025-01-03,Plant A,Electrical Issue,High,Control panel wiring malfunction
-2025-01-03,Plant B,Chemical Spill,Medium,Forklift brake response delay
-2025-01-03,Plant B,Slip,Medium,Sensor malfunction halted production
-2025-01-03,Plant A,Slip,Medium,Conveyor motor overheated during startup
-2025-01-04,Plant B,Slip,Medium,Forklift brake response delay
-2025-01-04,Plant B,Slip,Medium,Cooling pump pressure fluctuation
-2025-01-04,Plant C,Electrical Issue,Low,Smoke detected near curing oven
-2025-01-04,Plant A,Equipment Failure,Low,Minor solvent leak detected
-2025-01-04,Plant B,Fire Hazard,Low,Forklift brake response delay
+2025-01-01,Plant B,Equipment Failure,Low,Sensor malfunction halted production
+2025-01-01,Plant A,Electrical Issue,Medium,Operator slipped near wash station
+2025-01-01,Plant D,Fire Hazard,Low,Operator slipped near wash station
+2025-01-01,Plant D,Electrical Issue,Medium,Cooling pump pressure fluctuation
+2025-01-01,Plant C,Electrical Issue,Low,Cooling pump pressure fluctuation
+2025-01-01,Plant A,Chemical Spill,Low,Operator slipped near wash station
+2025-01-01,Plant A,Equipment Failure,Medium,Smoke detected near curing oven
+2025-01-02,Plant A,Equipment Failure,Low,Operator slipped near wash station
+2025-01-02,Plant A,Fire Hazard,Low,Operator slipped near wash station
+2025-01-02,Plant B,Chemical Spill,Low,Control panel wiring malfunction
+2025-01-02,Plant D,Chemical Spill,High,Control panel wiring malfunction
+2025-01-02,Plant D,Fire Hazard,Medium,Conveyor motor overheated during startup
+2025-01-02,Plant C,Fire Hazard,Medium,Forklift brake response delay
+2025-01-02,Plant D,Slip,Low,Cooling pump pressure fluctuation
+2025-01-02,Plant A,Fire Hazard,Low,Conveyor motor overheated during startup
+2025-01-02,Plant C,Electrical Issue,Medium,Operator slipped near wash station
+2025-01-03,Plant B,Chemical Spill,Low,Conveyor motor overheated during startup
+2025-01-03,Plant D,Chemical Spill,Medium,Forklift brake response delay
+2025-01-03,Plant B,Equipment Failure,Medium,Cooling pump pressure fluctuation
+2025-01-03,Plant B,Fire Hazard,Medium,Conveyor motor overheated during startup
+2025-01-03,Plant A,Slip,High,Control panel wiring malfunction
+2025-01-03,Plant A,Fire Hazard,Medium,Smoke detected near curing oven
+2025-01-04,Plant B,Electrical Issue,High,Forklift brake response delay
+2025-01-04,Plant B,Fire Hazard,Low,Cooling pump pressure fluctuation
 2025-01-04,Plant D,Equipment Failure,Low,Control panel wiring malfunction
-2025-01-04,Plant A,Equipment Failure,High,Cooling pump pressure fluctuation
-2025-01-05,Plant C,Equipment Failure,Medium,Cooling pump pressure fluctuation
-2025-01-05,Plant A,Electrical Issue,Low,Operator slipped near wash station
-2025-01-06,Plant C,Slip,Low,Sensor malfunction halted production
-2025-01-06,Plant A,Electrical Issue,Low,Smoke detected near curing oven
-2025-01-06,Plant D,Electrical Issue,Low,Smoke detected near curing oven
-2025-01-06,Plant C,Chemical Spill,Medium,Operator slipped near wash station
-2025-01-06,Plant D,Equipment Failure,Low,Smoke detected near curing oven
-2025-01-06,Plant A,Electrical Issue,Low,Cooling pump pressure fluctuation
-2025-01-06,Plant C,Slip,Low,Operator slipped near wash station
-2025-01-06,Plant B,Chemical Spill,Medium,Cooling pump pressure fluctuation
-2025-01-06,Plant A,Slip,Medium,Control panel wiring malfunction
-2025-01-06,Plant D,Fire Hazard,Medium,Control panel wiring malfunction
-2025-01-07,Plant B,Slip,Medium,Minor solvent leak detected
-2025-01-07,Plant C,Equipment Failure,Low,Minor solvent leak detected
-2025-01-07,Plant A,Equipment Failure,Low,Forklift brake response delay
-2025-01-08,Plant D,Electrical Issue,Low,Smoke detected near curing oven
+2025-01-04,Plant B,Equipment Failure,Low,Forklift brake response delay
+2025-01-04,Plant C,Chemical Spill,Low,Operator slipped near wash station
+2025-01-05,Plant B,Equipment Failure,Low,Control panel wiring malfunction
+2025-01-05,Plant A,Electrical Issue,Low,Control panel wiring malfunction
+2025-01-05,Plant A,Electrical Issue,Low,Cooling pump pressure fluctuation
+2025-01-05,Plant C,Fire Hazard,Low,Sensor malfunction halted production
+2025-01-05,Plant C,Fire Hazard,Low,Control panel wiring malfunction
+2025-01-06,Plant A,Equipment Failure,Medium,Sensor malfunction halted production
+2025-01-06,Plant D,Chemical Spill,Medium,Control panel wiring malfunction
+2025-01-06,Plant C,Fire Hazard,Low,Sensor malfunction halted production
+2025-01-07,Plant A,Slip,Medium,Conveyor motor overheated during startup
+2025-01-07,Plant B,Chemical Spill,Low,Operator slipped near wash station
+2025-01-07,Plant C,Fire Hazard,Low,Cooling pump pressure fluctuation
+2025-01-07,Plant A,Slip,Medium,Smoke detected near curing oven
+2025-01-07,Plant C,Electrical Issue,High,Control panel wiring malfunction
+2025-01-07,Plant D,Chemical Spill,Medium,Sensor malfunction halted production
+2025-01-07,Plant D,Fire Hazard,Low,Conveyor motor overheated during startup
+2025-01-08,Plant C,Fire Hazard,Low,Control panel wiring malfunction
+2025-01-08,Plant C,Equipment Failure,High,Control panel wiring malfunction
+2025-01-08,Plant C,Fire Hazard,High,Operator slipped near wash station
+2025-01-08,Plant C,Electrical Issue,Low,Cooling pump pressure fluctuation
 2025-01-08,Plant B,Chemical Spill,High,Control panel wiring malfunction
-2025-01-08,Plant B,Fire Hazard,Medium,Operator slipped near wash station
-2025-01-08,Plant A,Slip,Medium,Operator slipped near wash station
-2025-01-08,Plant D,Slip,High,Control panel wiring malfunction
-2025-01-09,Plant D,Slip,High,Minor solvent leak detected
-2025-01-09,Plant D,Chemical Spill,Low,Smoke detected near curing oven
-2025-01-09,Plant D,Chemical Spill,Low,Forklift brake response delay
-2025-01-09,Plant A,Chemical Spill,Low,Sensor malfunction halted production
-2025-01-09,Plant D,Slip,Medium,Operator slipped near wash station
-2025-01-09,Plant B,Electrical Issue,Low,Operator slipped near wash station
-2025-01-09,Plant A,Chemical Spill,Medium,Operator slipped near wash station
-2025-01-09,Plant C,Equipment Failure,High,Forklift brake response delay
-2025-01-10,Plant B,Chemical Spill,Low,Forklift brake response delay
-2025-01-10,Plant A,Equipment Failure,Low,Minor solvent leak detected
-2025-01-10,Plant D,Equipment Failure,Medium,Operator slipped near wash station
-2025-01-10,Plant B,Slip,Medium,Sensor malfunction halted production
-2025-01-10,Plant B,Equipment Failure,High,Smoke detected near curing oven
-2025-01-10,Plant B,Fire Hazard,Low,Cooling pump pressure fluctuation
-2025-01-10,Plant A,Slip,Low,Conveyor motor overheated during startup
-2025-01-10,Plant C,Chemical Spill,Low,Smoke detected near curing oven
-2025-01-11,Plant D,Fire Hazard,Low,Operator slipped near wash station
-2025-01-11,Plant B,Equipment Failure,Low,Conveyor motor overheated during startup
-2025-01-11,Plant C,Fire Hazard,Medium,Forklift brake response delay
-2025-01-11,Plant D,Equipment Failure,Low,Smoke detected near curing oven
-2025-01-11,Plant D,Fire Hazard,Low,Smoke detected near curing oven
-2025-01-11,Plant C,Chemical Spill,Medium,Forklift brake response delay
-2025-01-11,Plant C,Chemical Spill,Low,Smoke detected near curing oven
-2025-01-12,Plant A,Electrical Issue,Medium,Smoke detected near curing oven
-2025-01-12,Plant B,Fire Hazard,Medium,Operator slipped near wash station
-2025-01-12,Plant C,Equipment Failure,Medium,Control panel wiring malfunction
-2025-01-12,Plant B,Electrical Issue,Low,Control panel wiring malfunction
-2025-01-12,Plant D,Electrical Issue,High,Forklift brake response delay
-2025-01-12,Plant B,Electrical Issue,Low,Forklift brake response delay
-2025-01-13,Plant C,Chemical Spill,Medium,Operator slipped near wash station
-2025-01-13,Plant C,Chemical Spill,Low,Control panel wiring malfunction
-2025-01-13,Plant C,Fire Hazard,Medium,Sensor malfunction halted production
-2025-01-13,Plant A,Equipment Failure,Medium,Cooling pump pressure fluctuation
-2025-01-13,Plant A,Chemical Spill,Medium,Minor solvent leak detected
-2025-01-13,Plant C,Fire Hazard,Medium,Minor solvent leak detected
-2025-01-13,Plant D,Electrical Issue,Low,Forklift brake response delay
-2025-01-13,Plant B,Equipment Failure,Medium,Operator slipped near wash station
-2025-01-14,Plant D,Electrical Issue,Medium,Minor solvent leak detected
-2025-01-14,Plant D,Equipment Failure,High,Smoke detected near curing oven
-2025-01-14,Plant C,Electrical Issue,Low,Cooling pump pressure fluctuation
-2025-01-14,Plant D,Chemical Spill,High,Conveyor motor overheated during startup
-2025-01-14,Plant B,Fire Hazard,High,Minor solvent leak detected
-2025-01-14,Plant D,Equipment Failure,Low,Control panel wiring malfunction
-2025-01-14,Plant C,Equipment Failure,Low,Control panel wiring malfunction
-2025-01-15,Plant A,Chemical Spill,Low,Sensor malfunction halted production
-2025-01-15,Plant C,Chemical Spill,Low,Sensor malfunction halted production
-2025-01-15,Plant D,Electrical Issue,Low,Minor solvent leak detected
-2025-01-15,Plant A,Equipment Failure,Medium,Smoke detected near curing oven
-2025-01-15,Plant D,Chemical Spill,Medium,Smoke detected near curing oven
-2025-01-16,Plant B,Equipment Failure,Medium,Control panel wiring malfunction
-2025-01-16,Plant B,Chemical Spill,Low,Sensor malfunction halted production
-2025-01-16,Plant B,Fire Hazard,Low,Sensor malfunction halted production
-2025-01-17,Plant C,Chemical Spill,Low,Operator slipped near wash station
-2025-01-17,Plant A,Equipment Failure,Low,Minor solvent leak detected
-2025-01-17,Plant D,Fire Hazard,Medium,Control panel wiring malfunction
-2025-01-17,Plant C,Slip,Medium,Operator slipped near wash station
-2025-01-17,Plant B,Electrical Issue,Low,Operator slipped near wash station
-2025-01-17,Plant A,Slip,Low,Minor solvent leak detected
-2025-01-18,Plant B,Fire Hazard,Low,Smoke detected near curing oven
-2025-01-18,Plant A,Slip,High,Cooling pump pressure fluctuation
-2025-01-18,Plant B,Fire Hazard,Medium,Forklift brake response delay
-2025-01-18,Plant C,Fire Hazard,Low,Operator slipped near wash station
-2025-01-18,Plant A,Slip,Medium,Smoke detected near curing oven
-2025-01-18,Plant B,Electrical Issue,High,Control panel wiring malfunction
-2025-01-18,Plant D,Equipment Failure,Medium,Forklift brake response delay
-2025-01-18,Plant A,Fire Hazard,High,Conveyor motor overheated during startup
-2025-01-18,Plant D,Fire Hazard,High,Forklift brake response delay
-2025-01-18,Plant C,Chemical Spill,Low,Smoke detected near curing oven
-2025-01-19,Plant A,Equipment Failure,High,Control panel wiring malfunction
-2025-01-19,Plant A,Slip,Low,Operator slipped near wash station
-2025-01-19,Plant C,Electrical Issue,Medium,Control panel wiring malfunction
-2025-01-19,Plant D,Electrical Issue,Low,Control panel wiring malfunction
-2025-01-20,Plant D,Slip,Medium,Operator slipped near wash station
-2025-01-20,Plant D,Chemical Spill,Medium,Minor solvent leak detected
-2025-01-21,Plant A,Chemical Spill,Medium,Operator slipped near wash station
-2025-01-21,Plant B,Electrical Issue,Low,Smoke detected near curing oven
-2025-01-21,Plant D,Equipment Failure,Low,Forklift brake response delay
-2025-01-22,Plant B,Chemical Spill,Low,Smoke detected near curing oven
-2025-01-22,Plant C,Chemical Spill,Low,Cooling pump pressure fluctuation
-2025-01-22,Plant B,Chemical Spill,Medium,Conveyor motor overheated during startup
-2025-01-22,Plant D,Equipment Failure,Low,Control panel wiring malfunction
-2025-01-23,Plant D,Equipment Failure,Medium,Minor solvent leak detected
-2025-01-23,Plant B,Equipment Failure,Low,Minor solvent leak detected
-2025-01-23,Plant A,Slip,High,Control panel wiring malfunction
-2025-01-23,Plant A,Fire Hazard,Medium,Control panel wiring malfunction
-2025-01-23,Plant B,Equipment Failure,Low,Cooling pump pressure fluctuation
-2025-01-23,Plant B,Chemical Spill,Low,Minor solvent leak detected
-2025-01-24,Plant A,Slip,Low,Control panel wiring malfunction
-2025-01-24,Plant D,Slip,Low,Forklift brake response delay
-2025-01-24,Plant D,Chemical Spill,Low,Sensor malfunction halted production
-2025-01-25,Plant C,Fire Hazard,Medium,Cooling pump pressure fluctuation
-2025-01-25,Plant B,Electrical Issue,Low,Conveyor motor overheated during startup
-2025-01-25,Plant D,Electrical Issue,Low,Sensor malfunction halted production
-2025-01-26,Plant B,Equipment Failure,High,Forklift brake response delay
-2025-01-26,Plant A,Equipment Failure,Low,Forklift brake response delay
-2025-01-26,Plant C,Equipment Failure,High,Smoke detected near curing oven
-2025-01-27,Plant A,Chemical Spill,Low,Sensor malfunction halted production
-2025-01-27,Plant C,Electrical Issue,Low,Conveyor motor overheated during startup
-2025-01-27,Plant C,Fire Hazard,Low,Control panel wiring malfunction
+2025-01-08,Plant C,Chemical Spill,Medium,Minor solvent leak detected
+2025-01-08,Plant D,Chemical Spill,Low,Operator slipped near wash station
+2025-01-08,Plant D,Chemical Spill,Low,Operator slipped near wash station
+2025-01-09,Plant B,Equipment Failure,Low,Cooling pump pressure fluctuation
+2025-01-09,Plant A,Fire Hazard,Low,Conveyor motor overheated during startup
+2025-01-09,Plant B,Fire Hazard,Medium,Control panel wiring malfunction
+2025-01-10,Plant D,Fire Hazard,High,Operator slipped near wash station
+2025-01-10,Plant B,Electrical Issue,Low,Control panel wiring malfunction
+2025-01-10,Plant D,Slip,Low,Operator slipped near wash station
+2025-01-10,Plant A,Electrical Issue,Medium,Forklift brake response delay
+2025-01-10,Plant D,Fire Hazard,Medium,Cooling pump pressure fluctuation
+2025-01-11,Plant C,Chemical Spill,Medium,Minor solvent leak detected
+2025-01-11,Plant A,Slip,Low,Cooling pump pressure fluctuation
+2025-01-11,Plant C,Equipment Failure,Low,Smoke detected near curing oven
+2025-01-12,Plant A,Slip,Medium,Minor solvent leak detected
+2025-01-12,Plant C,Chemical Spill,Low,Control panel wiring malfunction
+2025-01-12,Plant C,Chemical Spill,Low,Forklift brake response delay
+2025-01-12,Plant D,Chemical Spill,Low,Conveyor motor overheated during startup
+2025-01-13,Plant B,Chemical Spill,Medium,Minor solvent leak detected
+2025-01-14,Plant C,Equipment Failure,Medium,Control panel wiring malfunction
+2025-01-14,Plant C,Fire Hazard,Medium,Forklift brake response delay
+2025-01-15,Plant A,Slip,Low,Control panel wiring malfunction
+2025-01-15,Plant B,Fire Hazard,Low,Minor solvent leak detected
+2025-01-15,Plant A,Chemical Spill,Low,Minor solvent leak detected
+2025-01-15,Plant B,Fire Hazard,Low,Minor solvent leak detected
+2025-01-15,Plant A,Equipment Failure,Medium,Operator slipped near wash station
+2025-01-15,Plant A,Chemical Spill,Low,Conveyor motor overheated during startup
+2025-01-15,Plant D,Fire Hazard,Medium,Control panel wiring malfunction
+2025-01-15,Plant C,Fire Hazard,Medium,Forklift brake response delay
+2025-01-15,Plant C,Slip,Medium,Conveyor motor overheated during startup
+2025-01-16,Plant D,Chemical Spill,Low,Cooling pump pressure fluctuation
+2025-01-16,Plant D,Chemical Spill,Low,Operator slipped near wash station
+2025-01-16,Plant D,Electrical Issue,Medium,Smoke detected near curing oven
+2025-01-16,Plant A,Equipment Failure,Low,Sensor malfunction halted production
+2025-01-16,Plant B,Equipment Failure,Low,Sensor malfunction halted production
+2025-01-17,Plant B,Equipment Failure,High,Cooling pump pressure fluctuation
+2025-01-17,Plant B,Equipment Failure,Low,Minor solvent leak detected
+2025-01-17,Plant D,Fire Hazard,Medium,Sensor malfunction halted production
+2025-01-17,Plant B,Electrical Issue,High,Sensor malfunction halted production
+2025-01-17,Plant B,Equipment Failure,Low,Control panel wiring malfunction
+2025-01-17,Plant D,Fire Hazard,Low,Control panel wiring malfunction
+2025-01-17,Plant D,Slip,Medium,Control panel wiring malfunction
+2025-01-17,Plant C,Fire Hazard,Low,Sensor malfunction halted production
+2025-01-17,Plant A,Equipment Failure,Low,Smoke detected near curing oven
+2025-01-18,Plant B,Fire Hazard,Low,Forklift brake response delay
+2025-01-18,Plant C,Equipment Failure,Medium,Minor solvent leak detected
+2025-01-18,Plant A,Electrical Issue,Medium,Operator slipped near wash station
+2025-01-19,Plant D,Equipment Failure,Low,Cooling pump pressure fluctuation
+2025-01-19,Plant D,Chemical Spill,Low,Operator slipped near wash station
+2025-01-19,Plant B,Electrical Issue,Low,Smoke detected near curing oven
+2025-01-19,Plant C,Slip,Low,Cooling pump pressure fluctuation
+2025-01-19,Plant D,Slip,High,Conveyor motor overheated during startup
+2025-01-19,Plant A,Slip,Medium,Operator slipped near wash station
+2025-01-19,Plant B,Fire Hazard,Low,Minor solvent leak detected
+2025-01-19,Plant C,Slip,High,Operator slipped near wash station
+2025-01-19,Plant A,Slip,Medium,Sensor malfunction halted production
+2025-01-19,Plant B,Fire Hazard,Medium,Conveyor motor overheated during startup
+2025-01-20,Plant C,Equipment Failure,Low,Forklift brake response delay
+2025-01-20,Plant B,Chemical Spill,Medium,Conveyor motor overheated during startup
+2025-01-20,Plant C,Chemical Spill,Medium,Cooling pump pressure fluctuation
+2025-01-20,Plant C,Chemical Spill,Medium,Minor solvent leak detected
+2025-01-21,Plant D,Electrical Issue,Medium,Conveyor motor overheated during startup
+2025-01-21,Plant C,Chemical Spill,Medium,Smoke detected near curing oven
+2025-01-21,Plant A,Fire Hazard,Low,Conveyor motor overheated during startup
+2025-01-21,Plant B,Electrical Issue,Low,Operator slipped near wash station
+2025-01-21,Plant B,Fire Hazard,Low,Operator slipped near wash station
+2025-01-22,Plant C,Electrical Issue,Low,Cooling pump pressure fluctuation
+2025-01-22,Plant D,Slip,Medium,Forklift brake response delay
+2025-01-22,Plant B,Slip,Medium,Conveyor motor overheated during startup
+2025-01-23,Plant A,Equipment Failure,Low,Smoke detected near curing oven
+2025-01-23,Plant D,Fire Hazard,Low,Forklift brake response delay
+2025-01-23,Plant A,Slip,High,Operator slipped near wash station
+2025-01-24,Plant A,Fire Hazard,Medium,Smoke detected near curing oven
+2025-01-24,Plant B,Equipment Failure,Low,Conveyor motor overheated during startup
+2025-01-24,Plant C,Fire Hazard,Low,Smoke detected near curing oven
+2025-01-24,Plant C,Slip,High,Smoke detected near curing oven
+2025-01-24,Plant B,Slip,Low,Sensor malfunction halted production
+2025-01-25,Plant A,Chemical Spill,Low,Control panel wiring malfunction
+2025-01-25,Plant A,Equipment Failure,Medium,Smoke detected near curing oven
+2025-01-25,Plant D,Equipment Failure,Medium,Minor solvent leak detected
+2025-01-25,Plant A,Fire Hazard,Medium,Forklift brake response delay
+2025-01-25,Plant D,Equipment Failure,Low,Smoke detected near curing oven
+2025-01-25,Plant A,Chemical Spill,Low,Conveyor motor overheated during startup
+2025-01-26,Plant A,Electrical Issue,Medium,Conveyor motor overheated during startup
+2025-01-26,Plant D,Equipment Failure,Medium,Conveyor motor overheated during startup
+2025-01-26,Plant C,Chemical Spill,Medium,Sensor malfunction halted production
+2025-01-27,Plant A,Equipment Failure,Low,Control panel wiring malfunction
+2025-01-27,Plant B,Chemical Spill,Medium,Minor solvent leak detected
+2025-01-27,Plant B,Slip,High,Forklift brake response delay
+2025-01-27,Plant D,Electrical Issue,Low,Cooling pump pressure fluctuation
 2025-01-27,Plant D,Electrical Issue,Medium,Minor solvent leak detected
-2025-01-27,Plant D,Fire Hazard,Low,Forklift brake response delay
-2025-01-27,Plant A,Chemical Spill,Low,Cooling pump pressure fluctuation
-2025-01-27,Plant D,Fire Hazard,Low,Forklift brake response delay
-2025-01-27,Plant A,Equipment Failure,Low,Sensor malfunction halted production
-2025-01-28,Plant D,Equipment Failure,Medium,Smoke detected near curing oven
-2025-01-28,Plant D,Equipment Failure,High,Minor solvent leak detected
-2025-01-28,Plant B,Fire Hazard,Low,Control panel wiring malfunction
-2025-01-29,Plant D,Electrical Issue,Medium,Smoke detected near curing oven
-2025-01-29,Plant C,Fire Hazard,High,Control panel wiring malfunction
-2025-01-29,Plant A,Slip,Low,Minor solvent leak detected
-2025-01-29,Plant C,Equipment Failure,Low,Operator slipped near wash station
-2025-01-29,Plant B,Fire Hazard,Medium,Cooling pump pressure fluctuation
-2025-01-29,Plant D,Electrical Issue,Low,Forklift brake response delay
-2025-01-29,Plant A,Slip,Low,Minor solvent leak detected
-2025-01-29,Plant B,Chemical Spill,Low,Forklift brake response delay
-2025-01-29,Plant D,Equipment Failure,Medium,Operator slipped near wash station
-2025-01-30,Plant C,Fire Hazard,Low,Smoke detected near curing oven
-2025-01-30,Plant C,Chemical Spill,Low,Cooling pump pressure fluctuation
-2025-01-30,Plant C,Chemical Spill,Medium,Minor solvent leak detected
-2025-01-30,Plant D,Equipment Failure,Low,Forklift brake response delay
-2025-01-30,Plant A,Chemical Spill,Low,Sensor malfunction halted production
-2025-01-30,Plant A,Electrical Issue,Medium,Smoke detected near curing oven
-2025-01-30,Plant B,Equipment Failure,Low,Sensor malfunction halted production
+2025-01-28,Plant B,Equipment Failure,Low,Minor solvent leak detected
+2025-01-28,Plant D,Fire Hazard,Low,Forklift brake response delay
+2025-01-28,Plant D,Fire Hazard,Low,Forklift brake response delay
+2025-01-28,Plant B,Fire Hazard,Low,Sensor malfunction halted production
+2025-01-28,Plant B,Fire Hazard,Low,Cooling pump pressure fluctuation
+2025-01-28,Plant B,Electrical Issue,Medium,Conveyor motor overheated during startup
+2025-01-28,Plant D,Slip,Low,Cooling pump pressure fluctuation
+2025-01-28,Plant C,Equipment Failure,Medium,Operator slipped near wash station
+2025-01-29,Plant C,Electrical Issue,Low,Forklift brake response delay
+2025-01-29,Plant D,Fire Hazard,Medium,Minor solvent leak detected
+2025-01-29,Plant C,Electrical Issue,Low,Operator slipped near wash station
+2025-01-30,Plant C,Slip,High,Cooling pump pressure fluctuation
+2025-01-30,Plant A,Chemical Spill,High,Sensor malfunction halted production
+2025-01-30,Plant D,Chemical Spill,High,Smoke detected near curing oven
+2025-01-30,Plant C,Fire Hazard,High,Operator slipped near wash station
+2025-01-30,Plant D,Equipment Failure,Low,Cooling pump pressure fluctuation
+2025-01-30,Plant D,Slip,Low,Cooling pump pressure fluctuation
+2025-01-30,Plant C,Fire Hazard,Low,Operator slipped near wash station
+2025-01-30,Plant B,Electrical Issue,High,Cooling pump pressure fluctuation
+2025-01-30,Plant D,Slip,Medium,Smoke detected near curing oven
+2025-01-30,Plant B,Slip,High,Minor solvent leak detected
+2025-01-31,Plant A,Chemical Spill,Medium,Sensor malfunction halted production
+2025-01-31,Plant C,Slip,High,Operator slipped near wash station
+2025-01-31,Plant A,Chemical Spill,Low,Conveyor motor overheated during startup
+2025-01-31,Plant C,Electrical Issue,Medium,Sensor malfunction halted production
+2025-01-31,Plant A,Slip,Low,Operator slipped near wash station
+2025-01-31,Plant C,Fire Hazard,Medium,Sensor malfunction halted production
+2025-01-31,Plant A,Slip,Low,Minor solvent leak detected
+2025-01-31,Plant D,Chemical Spill,Medium,Conveyor motor overheated during startup
 2025-01-31,Plant C,Slip,Low,Control panel wiring malfunction
-2025-01-31,Plant C,Fire Hazard,Low,Operator slipped near wash station
-2025-01-31,Plant B,Chemical Spill,High,Smoke detected near curing oven
-2025-01-31,Plant B,Electrical Issue,Medium,Sensor malfunction halted production
-2025-01-31,Plant A,Slip,Low,Control panel wiring malfunction
-2025-01-31,Plant A,Equipment Failure,Medium,Forklift brake response delay
-2025-01-31,Plant A,Equipment Failure,Medium,Smoke detected near curing oven
-2025-01-31,Plant B,Fire Hazard,Medium,Forklift brake response delay
-2025-01-31,Plant C,Chemical Spill,Medium,Smoke detected near curing oven
-2025-02-01,Plant D,Chemical Spill,Low,Forklift brake response delay
-2025-02-01,Plant B,Slip,Medium,Smoke detected near curing oven
-2025-02-01,Plant D,Slip,Medium,Control panel wiring malfunction
-2025-02-01,Plant C,Slip,Low,Conveyor motor overheated during startup
-2025-02-01,Plant B,Electrical Issue,Medium,Control panel wiring malfunction
-2025-02-01,Plant C,Chemical Spill,Low,Control panel wiring malfunction
-2025-02-01,Plant D,Fire Hazard,Low,Conveyor motor overheated during startup
-2025-02-02,Plant D,Electrical Issue,High,Sensor malfunction halted production
-2025-02-02,Plant D,Equipment Failure,Medium,Conveyor motor overheated during startup
-2025-02-02,Plant B,Electrical Issue,Low,Conveyor motor overheated during startup
-2025-02-02,Plant B,Fire Hazard,Low,Operator slipped near wash station
-2025-02-02,Plant B,Electrical Issue,Medium,Operator slipped near wash station
-2025-02-02,Plant D,Equipment Failure,Low,Sensor malfunction halted production
-2025-02-02,Plant C,Fire Hazard,High,Conveyor motor overheated during startup
-2025-02-03,Plant A,Electrical Issue,Low,Minor solvent leak detected
-2025-02-03,Plant C,Fire Hazard,Low,Smoke detected near curing oven
-2025-02-03,Plant C,Fire Hazard,Medium,Sensor malfunction halted production
-2025-02-03,Plant D,Fire Hazard,High,Cooling pump pressure fluctuation
-2025-02-03,Plant B,Electrical Issue,Low,Cooling pump pressure fluctuation
-2025-02-03,Plant D,Chemical Spill,Medium,Minor solvent leak detected
-2025-02-03,Plant D,Chemical Spill,Medium,Operator slipped near wash station
-2025-02-03,Plant D,Chemical Spill,Medium,Operator slipped near wash station
-2025-02-03,Plant C,Chemical Spill,Low,Minor solvent leak detected
-2025-02-04,Plant A,Equipment Failure,Low,Cooling pump pressure fluctuation
-2025-02-04,Plant D,Slip,Medium,Control panel wiring malfunction
-2025-02-04,Plant B,Slip,Medium,Minor solvent leak detected
-2025-02-04,Plant A,Fire Hazard,Low,Cooling pump pressure fluctuation
-2025-02-05,Plant C,Electrical Issue,Low,Cooling pump pressure fluctuation
-2025-02-05,Plant C,Equipment Failure,Low,Conveyor motor overheated during startup
-2025-02-05,Plant B,Electrical Issue,Low,Smoke detected near curing oven
-2025-02-05,Plant B,Fire Hazard,High,Forklift brake response delay
-2025-02-05,Plant D,Fire Hazard,High,Minor solvent leak detected
-2025-02-05,Plant C,Fire Hazard,Medium,Conveyor motor overheated during startup
-2025-02-05,Plant C,Slip,Low,Operator slipped near wash station
-2025-02-05,Plant B,Equipment Failure,Medium,Sensor malfunction halted production
-2025-02-06,Plant D,Slip,Medium,Minor solvent leak detected
-2025-02-06,Plant D,Equipment Failure,Low,Forklift brake response delay
-2025-02-07,Plant A,Slip,Low,Minor solvent leak detected
-2025-02-08,Plant A,Electrical Issue,Low,Cooling pump pressure fluctuation
-2025-02-08,Plant D,Equipment Failure,Low,Forklift brake response delay
-2025-02-08,Plant A,Chemical Spill,Medium,Operator slipped near wash station
-2025-02-08,Plant D,Slip,Low,Minor solvent leak detected
-2025-02-08,Plant C,Slip,Medium,Control panel wiring malfunction
-2025-02-08,Plant B,Chemical Spill,High,Smoke detected near curing oven
-2025-02-08,Plant D,Chemical Spill,Low,Cooling pump pressure fluctuation
-2025-02-08,Plant C,Fire Hazard,Low,Smoke detected near curing oven
-2025-02-08,Plant D,Chemical Spill,High,Sensor malfunction halted production
-2025-02-09,Plant C,Fire Hazard,High,Cooling pump pressure fluctuation
-2025-02-09,Plant A,Electrical Issue,High,Sensor malfunction halted production
-2025-02-09,Plant C,Electrical Issue,Medium,Conveyor motor overheated during startup
-2025-02-09,Plant C,Fire Hazard,Low,Minor solvent leak detected
-2025-02-09,Plant C,Chemical Spill,Low,Operator slipped near wash station
-2025-02-09,Plant A,Chemical Spill,High,Cooling pump pressure fluctuation
-2025-02-09,Plant A,Chemical Spill,High,Control panel wiring malfunction
-2025-02-09,Plant D,Fire Hazard,Medium,Operator slipped near wash station
-2025-02-09,Plant B,Fire Hazard,High,Smoke detected near curing oven
-2025-02-10,Plant A,Chemical Spill,Low,Forklift brake response delay
-2025-02-10,Plant C,Slip,Low,Cooling pump pressure fluctuation
-2025-02-11,Plant A,Fire Hazard,Medium,Control panel wiring malfunction
-2025-02-11,Plant C,Fire Hazard,Low,Cooling pump pressure fluctuation
-2025-02-11,Plant B,Electrical Issue,Low,Control panel wiring malfunction
-2025-02-11,Plant A,Equipment Failure,Low,Sensor malfunction halted production
-2025-02-12,Plant B,Chemical Spill,Medium,Cooling pump pressure fluctuation
-2025-02-13,Plant A,Fire Hazard,Low,Operator slipped near wash station
-2025-02-13,Plant C,Slip,Low,Forklift brake response delay
-2025-02-13,Plant C,Electrical Issue,Medium,Cooling pump pressure fluctuation
-2025-02-13,Plant B,Chemical Spill,Low,Cooling pump pressure fluctuation
-2025-02-13,Plant D,Electrical Issue,Medium,Operator slipped near wash station
-2025-02-13,Plant B,Fire Hazard,Medium,Forklift brake response delay
-2025-02-13,Plant A,Equipment Failure,Low,Conveyor motor overheated during startup
+2025-01-31,Plant D,Slip,High,Sensor malfunction halted production
+2025-02-01,Plant A,Electrical Issue,Low,Sensor malfunction halted production
+2025-02-02,Plant D,Slip,High,Forklift brake response delay
+2025-02-02,Plant C,Electrical Issue,Low,Smoke detected near curing oven
+2025-02-03,Plant B,Fire Hazard,Medium,Smoke detected near curing oven
+2025-02-03,Plant C,Chemical Spill,Low,Smoke detected near curing oven
+2025-02-04,Plant C,Chemical Spill,Low,Sensor malfunction halted production
+2025-02-04,Plant A,Equipment Failure,Low,Smoke detected near curing oven
+2025-02-04,Plant B,Chemical Spill,Low,Smoke detected near curing oven
+2025-02-04,Plant B,Electrical Issue,Low,Smoke detected near curing oven
+2025-02-04,Plant D,Electrical Issue,Low,Forklift brake response delay
+2025-02-04,Plant B,Equipment Failure,Medium,Conveyor motor overheated during startup
+2025-02-04,Plant C,Slip,Low,Minor solvent leak detected
+2025-02-04,Plant B,Slip,High,Operator slipped near wash station
+2025-02-04,Plant C,Fire Hazard,Medium,Conveyor motor overheated during startup
+2025-02-04,Plant A,Fire Hazard,Medium,Sensor malfunction halted production
+2025-02-05,Plant D,Slip,Low,Cooling pump pressure fluctuation
+2025-02-05,Plant C,Slip,Low,Sensor malfunction halted production
+2025-02-05,Plant B,Electrical Issue,Medium,Minor solvent leak detected
+2025-02-05,Plant B,Chemical Spill,Medium,Conveyor motor overheated during startup
+2025-02-05,Plant C,Chemical Spill,Low,Sensor malfunction halted production
+2025-02-05,Plant B,Fire Hazard,Medium,Operator slipped near wash station
+2025-02-05,Plant D,Equipment Failure,Medium,Minor solvent leak detected
+2025-02-05,Plant C,Fire Hazard,Medium,Smoke detected near curing oven
+2025-02-05,Plant B,Fire Hazard,Low,Smoke detected near curing oven
+2025-02-05,Plant C,Fire Hazard,High,Control panel wiring malfunction
+2025-02-06,Plant A,Slip,Low,Smoke detected near curing oven
+2025-02-06,Plant A,Chemical Spill,Low,Minor solvent leak detected
+2025-02-06,Plant D,Electrical Issue,Low,Operator slipped near wash station
+2025-02-07,Plant C,Electrical Issue,Low,Control panel wiring malfunction
+2025-02-07,Plant C,Fire Hazard,Low,Conveyor motor overheated during startup
+2025-02-07,Plant A,Slip,Medium,Sensor malfunction halted production
+2025-02-07,Plant B,Equipment Failure,Low,Cooling pump pressure fluctuation
+2025-02-07,Plant C,Fire Hazard,Medium,Smoke detected near curing oven
+2025-02-07,Plant A,Chemical Spill,Low,Forklift brake response delay
+2025-02-07,Plant D,Electrical Issue,Medium,Sensor malfunction halted production
+2025-02-07,Plant A,Equipment Failure,Low,Smoke detected near curing oven
+2025-02-08,Plant D,Equipment Failure,High,Cooling pump pressure fluctuation
+2025-02-08,Plant A,Slip,Medium,Minor solvent leak detected
+2025-02-08,Plant D,Slip,Medium,Cooling pump pressure fluctuation
+2025-02-08,Plant A,Electrical Issue,Medium,Minor solvent leak detected
+2025-02-08,Plant D,Fire Hazard,Low,Minor solvent leak detected
+2025-02-08,Plant C,Chemical Spill,Low,Control panel wiring malfunction
+2025-02-08,Plant D,Slip,Low,Forklift brake response delay
+2025-02-08,Plant D,Fire Hazard,High,Sensor malfunction halted production
+2025-02-08,Plant A,Chemical Spill,Medium,Control panel wiring malfunction
+2025-02-08,Plant B,Equipment Failure,Low,Forklift brake response delay
+2025-02-09,Plant B,Electrical Issue,Medium,Forklift brake response delay
+2025-02-09,Plant B,Chemical Spill,Low,Operator slipped near wash station
+2025-02-09,Plant A,Chemical Spill,Medium,Control panel wiring malfunction
+2025-02-09,Plant D,Chemical Spill,Low,Sensor malfunction halted production
+2025-02-09,Plant C,Equipment Failure,Medium,Forklift brake response delay
+2025-02-09,Plant A,Chemical Spill,Low,Smoke detected near curing oven
+2025-02-09,Plant B,Chemical Spill,Low,Cooling pump pressure fluctuation
+2025-02-09,Plant C,Chemical Spill,Low,Conveyor motor overheated during startup
+2025-02-09,Plant A,Equipment Failure,Low,Sensor malfunction halted production
+2025-02-09,Plant C,Slip,Medium,Smoke detected near curing oven
+2025-02-10,Plant A,Slip,Low,Conveyor motor overheated during startup
+2025-02-10,Plant B,Fire Hazard,Medium,Smoke detected near curing oven
+2025-02-10,Plant A,Electrical Issue,Medium,Operator slipped near wash station
+2025-02-10,Plant A,Fire Hazard,Low,Control panel wiring malfunction
+2025-02-10,Plant A,Slip,Low,Smoke detected near curing oven
+2025-02-10,Plant D,Equipment Failure,High,Cooling pump pressure fluctuation
+2025-02-10,Plant A,Electrical Issue,High,Cooling pump pressure fluctuation
+2025-02-10,Plant D,Equipment Failure,Low,Conveyor motor overheated during startup
+2025-02-10,Plant C,Fire Hazard,Low,Minor solvent leak detected
+2025-02-10,Plant D,Fire Hazard,Medium,Sensor malfunction halted production
+2025-02-11,Plant A,Chemical Spill,Low,Cooling pump pressure fluctuation
+2025-02-11,Plant A,Slip,High,Sensor malfunction halted production
+2025-02-11,Plant A,Equipment Failure,Low,Conveyor motor overheated during startup
+2025-02-11,Plant A,Slip,Medium,Forklift brake response delay
+2025-02-11,Plant D,Electrical Issue,Low,Sensor malfunction halted production
+2025-02-11,Plant A,Chemical Spill,Medium,Sensor malfunction halted production
+2025-02-11,Plant A,Chemical Spill,Medium,Smoke detected near curing oven
+2025-02-11,Plant D,Electrical Issue,Medium,Conveyor motor overheated during startup
+2025-02-11,Plant C,Electrical Issue,Medium,Sensor malfunction halted production
+2025-02-12,Plant A,Slip,Medium,Smoke detected near curing oven
+2025-02-12,Plant B,Slip,High,Conveyor motor overheated during startup
+2025-02-12,Plant B,Equipment Failure,Low,Minor solvent leak detected
+2025-02-13,Plant C,Electrical Issue,High,Forklift brake response delay
+2025-02-13,Plant A,Fire Hazard,Low,Sensor malfunction halted production
+2025-02-13,Plant B,Fire Hazard,Medium,Smoke detected near curing oven
+2025-02-13,Plant D,Equipment Failure,Low,Minor solvent leak detected
+2025-02-13,Plant C,Electrical Issue,Low,Cooling pump pressure fluctuation
+2025-02-13,Plant B,Chemical Spill,Low,Minor solvent leak detected
+2025-02-13,Plant C,Chemical Spill,High,Conveyor motor overheated during startup
 2025-02-13,Plant B,Slip,Low,Operator slipped near wash station
-2025-02-13,Plant B,Fire Hazard,Medium,Control panel wiring malfunction
-2025-02-13,Plant B,Electrical Issue,Low,Sensor malfunction halted production
-2025-02-14,Plant B,Chemical Spill,Medium,Cooling pump pressure fluctuation
-2025-02-14,Plant D,Equipment Failure,Medium,Operator slipped near wash station
-2025-02-15,Plant A,Fire Hazard,Low,Control panel wiring malfunction
-2025-02-15,Plant D,Fire Hazard,Low,Conveyor motor overheated during startup
-2025-02-15,Plant B,Electrical Issue,Low,Conveyor motor overheated during startup
-2025-02-15,Plant A,Electrical Issue,Medium,Operator slipped near wash station
-2025-02-15,Plant D,Equipment Failure,High,Smoke detected near curing oven
-2025-02-15,Plant B,Equipment Failure,Low,Control panel wiring malfunction
-2025-02-15,Plant D,Chemical Spill,Low,Control panel wiring malfunction
-2025-02-15,Plant D,Electrical Issue,Medium,Cooling pump pressure fluctuation
-2025-02-15,Plant A,Electrical Issue,Low,Minor solvent leak detected
-2025-02-15,Plant D,Slip,Low,Smoke detected near curing oven
-2025-02-16,Plant A,Slip,Medium,Cooling pump pressure fluctuation
-2025-02-16,Plant B,Equipment Failure,High,Sensor malfunction halted production
-2025-02-16,Plant A,Slip,Low,Forklift brake response delay
-2025-02-16,Plant B,Equipment Failure,Low,Control panel wiring malfunction
-2025-02-16,Plant B,Chemical Spill,Medium,Smoke detected near curing oven
-2025-02-16,Plant A,Electrical Issue,Medium,Sensor malfunction halted production
-2025-02-17,Plant D,Equipment Failure,High,Conveyor motor overheated during startup
-2025-02-17,Plant C,Equipment Failure,Low,Conveyor motor overheated during startup
-2025-02-18,Plant B,Fire Hazard,Low,Conveyor motor overheated during startup
-2025-02-18,Plant B,Fire Hazard,Medium,Conveyor motor overheated during startup
-2025-02-18,Plant A,Electrical Issue,Low,Minor solvent leak detected
-2025-02-19,Plant A,Slip,Low,Smoke detected near curing oven
-2025-02-20,Plant A,Equipment Failure,High,Operator slipped near wash station
-2025-02-21,Plant C,Equipment Failure,Low,Minor solvent leak detected
-2025-02-21,Plant A,Equipment Failure,Low,Control panel wiring malfunction
-2025-02-21,Plant D,Slip,Medium,Control panel wiring malfunction
-2025-02-21,Plant A,Chemical Spill,Low,Smoke detected near curing oven
-2025-02-21,Plant B,Fire Hazard,Low,Conveyor motor overheated during startup
-2025-02-21,Plant B,Slip,Low,Sensor malfunction halted production
-2025-02-21,Plant D,Fire Hazard,Low,Conveyor motor overheated during startup
-2025-02-21,Plant B,Slip,Medium,Smoke detected near curing oven
-2025-02-21,Plant A,Electrical Issue,Medium,Sensor malfunction halted production
-2025-02-22,Plant A,Fire Hazard,Low,Minor solvent leak detected
-2025-02-22,Plant A,Slip,Low,Smoke detected near curing oven
-2025-02-22,Plant D,Slip,Medium,Control panel wiring malfunction
-2025-02-22,Plant A,Electrical Issue,Medium,Operator slipped near wash station
-2025-02-23,Plant D,Chemical Spill,Low,Conveyor motor overheated during startup
-2025-02-23,Plant A,Equipment Failure,Medium,Conveyor motor overheated during startup
-2025-02-23,Plant C,Slip,Medium,Forklift brake response delay
-2025-02-23,Plant C,Chemical Spill,High,Smoke detected near curing oven
-2025-02-23,Plant A,Chemical Spill,Low,Conveyor motor overheated during startup
-2025-02-24,Plant D,Fire Hazard,Low,Cooling pump pressure fluctuation
-2025-02-24,Plant C,Electrical Issue,High,Control panel wiring malfunction
-2025-02-24,Plant D,Slip,Low,Conveyor motor overheated during startup
-2025-02-25,Plant B,Equipment Failure,Low,Minor solvent leak detected
-2025-02-25,Plant C,Electrical Issue,Low,Smoke detected near curing oven
-2025-02-25,Plant C,Slip,Low,Control panel wiring malfunction
+2025-02-13,Plant D,Electrical Issue,Low,Conveyor motor overheated during startup
+2025-02-13,Plant A,Chemical Spill,Medium,Control panel wiring malfunction
+2025-02-14,Plant D,Chemical Spill,Medium,Smoke detected near curing oven
+2025-02-14,Plant A,Fire Hazard,High,Smoke detected near curing oven
+2025-02-15,Plant D,Chemical Spill,Medium,Smoke detected near curing oven
+2025-02-15,Plant D,Equipment Failure,High,Sensor malfunction halted production
+2025-02-15,Plant A,Slip,Medium,Operator slipped near wash station
+2025-02-15,Plant C,Electrical Issue,Low,Control panel wiring malfunction
+2025-02-15,Plant B,Equipment Failure,Low,Operator slipped near wash station
+2025-02-15,Plant D,Fire Hazard,Low,Operator slipped near wash station
+2025-02-16,Plant A,Equipment Failure,Low,Minor solvent leak detected
+2025-02-16,Plant B,Electrical Issue,High,Minor solvent leak detected
+2025-02-16,Plant B,Electrical Issue,High,Minor solvent leak detected
+2025-02-16,Plant D,Slip,Medium,Operator slipped near wash station
+2025-02-16,Plant D,Equipment Failure,High,Conveyor motor overheated during startup
+2025-02-16,Plant B,Chemical Spill,Low,Control panel wiring malfunction
+2025-02-16,Plant C,Chemical Spill,High,Forklift brake response delay
+2025-02-16,Plant D,Chemical Spill,Low,Forklift brake response delay
+2025-02-16,Plant C,Chemical Spill,Medium,Conveyor motor overheated during startup
+2025-02-16,Plant C,Equipment Failure,Medium,Sensor malfunction halted production
+2025-02-17,Plant A,Equipment Failure,Low,Control panel wiring malfunction
+2025-02-17,Plant C,Chemical Spill,Low,Conveyor motor overheated during startup
+2025-02-17,Plant C,Chemical Spill,Medium,Sensor malfunction halted production
+2025-02-17,Plant A,Slip,Low,Control panel wiring malfunction
+2025-02-17,Plant B,Chemical Spill,Medium,Smoke detected near curing oven
+2025-02-17,Plant D,Slip,Low,Minor solvent leak detected
+2025-02-17,Plant C,Equipment Failure,Low,Control panel wiring malfunction
+2025-02-17,Plant A,Chemical Spill,Medium,Control panel wiring malfunction
+2025-02-17,Plant B,Fire Hazard,Medium,Conveyor motor overheated during startup
+2025-02-18,Plant C,Slip,Low,Minor solvent leak detected
+2025-02-18,Plant D,Slip,Low,Control panel wiring malfunction
+2025-02-18,Plant B,Chemical Spill,High,Minor solvent leak detected
+2025-02-18,Plant A,Equipment Failure,Medium,Forklift brake response delay
+2025-02-18,Plant C,Electrical Issue,High,Forklift brake response delay
+2025-02-18,Plant B,Chemical Spill,Low,Sensor malfunction halted production
+2025-02-18,Plant D,Equipment Failure,Medium,Control panel wiring malfunction
+2025-02-18,Plant A,Fire Hazard,Medium,Sensor malfunction halted production
+2025-02-19,Plant C,Chemical Spill,Medium,Minor solvent leak detected
+2025-02-19,Plant B,Chemical Spill,Medium,Operator slipped near wash station
+2025-02-19,Plant A,Slip,Low,Cooling pump pressure fluctuation
+2025-02-19,Plant D,Fire Hazard,Low,Operator slipped near wash station
+2025-02-19,Plant C,Slip,Low,Minor solvent leak detected
+2025-02-20,Plant A,Equipment Failure,Low,Conveyor motor overheated during startup
+2025-02-20,Plant D,Chemical Spill,Low,Operator slipped near wash station
+2025-02-20,Plant A,Chemical Spill,Medium,Control panel wiring malfunction
+2025-02-20,Plant A,Slip,Low,Cooling pump pressure fluctuation
+2025-02-20,Plant D,Equipment Failure,Medium,Conveyor motor overheated during startup
+2025-02-20,Plant D,Equipment Failure,Low,Smoke detected near curing oven
+2025-02-20,Plant C,Slip,Medium,Control panel wiring malfunction
+2025-02-20,Plant D,Electrical Issue,Low,Sensor malfunction halted production
+2025-02-20,Plant C,Electrical Issue,Medium,Cooling pump pressure fluctuation
+2025-02-21,Plant B,Fire Hazard,High,Smoke detected near curing oven
+2025-02-21,Plant B,Slip,High,Conveyor motor overheated during startup
+2025-02-21,Plant A,Slip,Low,Operator slipped near wash station
+2025-02-22,Plant D,Chemical Spill,Low,Operator slipped near wash station
+2025-02-22,Plant D,Chemical Spill,High,Control panel wiring malfunction
+2025-02-22,Plant D,Slip,Low,Cooling pump pressure fluctuation
+2025-02-22,Plant A,Equipment Failure,Medium,Sensor malfunction halted production
+2025-02-22,Plant C,Fire Hazard,Low,Conveyor motor overheated during startup
+2025-02-22,Plant A,Chemical Spill,High,Smoke detected near curing oven
+2025-02-22,Plant C,Slip,Medium,Sensor malfunction halted production
+2025-02-22,Plant B,Electrical Issue,Low,Control panel wiring malfunction
+2025-02-23,Plant B,Chemical Spill,Medium,Minor solvent leak detected
+2025-02-23,Plant C,Electrical Issue,Low,Cooling pump pressure fluctuation
+2025-02-23,Plant A,Chemical Spill,Low,Forklift brake response delay
+2025-02-23,Plant B,Electrical Issue,Low,Operator slipped near wash station
+2025-02-23,Plant A,Chemical Spill,Low,Forklift brake response delay
+2025-02-23,Plant A,Electrical Issue,Medium,Sensor malfunction halted production
+2025-02-23,Plant D,Electrical Issue,High,Forklift brake response delay
+2025-02-24,Plant B,Equipment Failure,Low,Conveyor motor overheated during startup
+2025-02-25,Plant A,Slip,Low,Forklift brake response delay
+2025-02-25,Plant D,Electrical Issue,Medium,Operator slipped near wash station
 2025-02-25,Plant D,Chemical Spill,Low,Smoke detected near curing oven
-2025-02-25,Plant C,Chemical Spill,Medium,Smoke detected near curing oven
-2025-02-25,Plant C,Equipment Failure,Medium,Smoke detected near curing oven
-2025-02-25,Plant B,Equipment Failure,High,Forklift brake response delay
-2025-02-25,Plant A,Fire Hazard,Medium,Smoke detected near curing oven
-2025-02-25,Plant C,Electrical Issue,Low,Smoke detected near curing oven
-2025-02-25,Plant D,Fire Hazard,Medium,Sensor malfunction halted production
-2025-02-26,Plant C,Electrical Issue,Low,Conveyor motor overheated during startup
-2025-02-26,Plant D,Electrical Issue,Medium,Cooling pump pressure fluctuation
-2025-02-26,Plant A,Chemical Spill,Low,Cooling pump pressure fluctuation
-2025-02-26,Plant C,Fire Hazard,Medium,Sensor malfunction halted production
-2025-02-27,Plant C,Equipment Failure,High,Cooling pump pressure fluctuation
-2025-02-27,Plant A,Chemical Spill,Low,Sensor malfunction halted production
-2025-02-28,Plant B,Chemical Spill,Low,Minor solvent leak detected
-2025-02-28,Plant D,Slip,Low,Operator slipped near wash station
-2025-02-28,Plant A,Electrical Issue,Medium,Conveyor motor overheated during startup
-2025-02-28,Plant C,Equipment Failure,Medium,Smoke detected near curing oven
-2025-02-28,Plant B,Chemical Spill,Low,Control panel wiring malfunction
-2025-02-28,Plant C,Equipment Failure,Medium,Smoke detected near curing oven
-2025-03-01,Plant D,Electrical Issue,Low,Sensor malfunction halted production
-2025-03-01,Plant B,Slip,High,Control panel wiring malfunction
-2025-03-01,Plant B,Slip,Medium,Conveyor motor overheated during startup
-2025-03-01,Plant D,Electrical Issue,Low,Sensor malfunction halted production
-2025-03-01,Plant A,Equipment Failure,Low,Cooling pump pressure fluctuation
+2025-02-26,Plant D,Chemical Spill,Medium,Operator slipped near wash station
+2025-02-26,Plant D,Equipment Failure,Medium,Forklift brake response delay
+2025-02-26,Plant D,Fire Hazard,Low,Smoke detected near curing oven
+2025-02-26,Plant B,Slip,Medium,Forklift brake response delay
+2025-02-26,Plant B,Slip,Low,Control panel wiring malfunction
+2025-02-26,Plant A,Chemical Spill,Low,Sensor malfunction halted production
+2025-02-27,Plant A,Electrical Issue,Medium,Control panel wiring malfunction
+2025-02-27,Plant D,Fire Hazard,Low,Minor solvent leak detected
+2025-02-27,Plant C,Equipment Failure,Medium,Control panel wiring malfunction
+2025-02-27,Plant C,Slip,Medium,Smoke detected near curing oven
+2025-02-28,Plant B,Chemical Spill,Medium,Sensor malfunction halted production
+2025-02-28,Plant B,Electrical Issue,Medium,Minor solvent leak detected
+2025-02-28,Plant A,Equipment Failure,High,Conveyor motor overheated during startup
+2025-02-28,Plant C,Slip,Low,Control panel wiring malfunction
+2025-03-01,Plant B,Electrical Issue,Low,Control panel wiring malfunction

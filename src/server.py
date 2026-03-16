@@ -43,5 +43,38 @@ def home():
         ]
     }
 
+@app.route("/api/risk-scores")
+def risk_scores():
+    scores = get_plant_risk_scores()
+    result = {}
+
+    for location, score in scores:
+        result[location] = score
+
+    return jsonify(result)
+
+@app.route("/api/incident-summary")
+def incident_summary():
+    data = load_data()
+
+    summary = {
+        "total_incidents": len(data),
+        "high_severity": int ((data["severity"] == "High").sum()),
+        "medium_severity": int((data["severity"] == "Medium").sum()),
+        "low_severity": int((data["severity"] == "Low").sum())   
+    }
+    return jsonify(summary)
+
+@app.route("/api/trend")
+def trend():
+    data = load_data()
+    incidents_per_day = data.groupby("date").size()
+    result = {
+        str(date): int(count)
+        for date, count in
+    incidents_per_day.items()
+    }
+    return jsonify(result)
+
 if __name__ == "__main__":
     app.run(debug=True)
