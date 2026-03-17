@@ -2,7 +2,12 @@ Safety Data Analyzer
 
 Backend analytics system for monitoring and analyzing industrial safety incidents.
 
-This project simulates industrial safety incidents, stores them in a database, performs analytics using Pandas and SQL, generates reports and charts, and exposes the results through a Flask API.
+- Generates synthetic industrial safety data
+- Stores data in SQLite database
+- Performs analysis using Pandas
+- Generates charts and reports
+- Exposes analytics via Flask API
+- Supports automated pipeline execution
 
 ---
 
@@ -16,12 +21,11 @@ Features
 - JSON export for machine-readable analytics
 - Flask API endpoints for backend services
 - Chart generation for incident insights
+- Automated pipeline for continuous data processing
 
 ---
 
 Example Analysis Output
-
-The analysis engine calculates:
 
 - Total incidents
 - Most dangerous plant
@@ -34,79 +38,80 @@ The analysis engine calculates:
 
 Project Structure
 
-safety-data-analyzer
-│
-├── src
-│   ├── analyzer.py          # CLI entry point
-│   ├── analysis_engine.py   # analytics logic
-│   ├── database.py          # database operations
-│   ├── generate_data.py     # synthetic dataset generator
-│   └── server.py            # Flask API server
-│
-├── data
-│   └── incidents.db
-│
-├── output
-│   ├── report.txt
-│   ├── analysis_results.json
-│   └── charts
-│
-├── requirements.txt
-└── README.md
+- src/
+  
+  - analyzer.py (CLI entry point)
+  - analysis_engine.py (analytics logic)
+  - database.py (database operations)
+  - generate_data.py (dataset generator)
+  - server.py (Flask API)
+  - scheduler.py (automated pipeline)
+
+- data/
+  
+  - incidents.db
+
+- output/
+  
+  - report.txt
+  - analysis_results.json
+  - charts
+
+- requirements.txt
+
+- README.md
 
 ---
 
 Running the Project
 
-Install dependencies
+- Install dependencies
+  
+  - pip install -r requirements.txt
 
-pip install -r requirements.txt
+- Generate dataset
+  
+  - python src/analyzer.py generate
 
-Generate synthetic dataset
+- Run analysis
+  
+  - python src/analyzer.py analyze
 
-python src/analyzer.py generate
+- Start API server
+  
+  - python src/server.py
 
-Run the analytics engine
-
-python src/analyzer.py analyze
-
-Start the API server
-
-python src/server.py
+- Run automated pipeline
+  
+  - python src/scheduler.py
 
 ---
 
 API Endpoints
 
-Incident Summary
+- GET /api/incident-summary
+  
+  - Returns total incidents and severity breakdown
 
-GET /api/incident-summary
+- GET /api/risk-scores
+  
+  - Returns risk score per plant
 
-Returns severity distribution and total incident count.
-
-Risk Scores
-
-GET /api/risk-scores
-
-Returns calculated safety risk scores for each plant.
-
-Incident Trend
-
-GET /api/trend
-
-Returns incident counts grouped by date.
+- GET /api/trend
+  
+  - Returns incident counts by date
 
 ---
 
 Example API Response
 
-GET /api/risk-scores
+- GET /api/risk-scores
 
 {
-  "Plant D": 137,
-  "Plant A": 121,
-  "Plant B": 118,
-  "Plant C": 103
+"Plant D": 137,
+"Plant A": 121,
+"Plant B": 118,
+"Plant C": 103
 }
 
 ---
@@ -121,28 +126,9 @@ Tech Stack
 
 ---
 
-Architecture
-
-Data Generator
-      ↓
-SQLite Database
-      ↓
-Analysis Engine (Pandas + SQL)
-      ↓
-Reports + Charts
-      ↓
-Flask API
-
----
-
 Purpose
 
-This project demonstrates a backend analytics pipeline, including:
-
-- synthetic data generation
-- database storage
-- analytical processing
-- report generation
-- REST API exposure
-
-It showcases backend development, data processing, and analytics system design.
+- Demonstrates backend data analytics pipeline
+- Covers data generation, storage, analysis, and reporting
+- Exposes processed data through REST API
+- Simulates real-world automated data processing systems
