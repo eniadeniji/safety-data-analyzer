@@ -132,3 +132,12 @@ Purpose
 - Covers data generation, storage, analysis, and reporting
 - Exposes processed data through REST API
 - Simulates real-world automated data processing systems
+
+ ---
+
+ Screenshots
+
+- CLI Output  
+- API Response  
+- Incident Trend
+- Severity Distribution  
